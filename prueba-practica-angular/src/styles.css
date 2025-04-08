@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #2C3E50;    /* Color principal oscuro */
-    --color-secondary: #3498DB;   /* Color secundario azul */
-    --color-accent: #E74C3C;     /* Color de acento */
-    --color-light: #ECF0F1;      /* Color claro */
-    --color-dark: #2C3E50;       /* Color oscuro */
+    --color-primary: #8AA29E;    /* Color principal oscuro */
+    --color-secondary: #FAFAFA;   
+    --color-accent: #DB5461;     /* Color de acento */
+    --color-light: #E3F2FD;      /* Color claro */
+    --color-dark: #686963;;       /* Color oscuro */
   }
   
   /* Estilos base globales */

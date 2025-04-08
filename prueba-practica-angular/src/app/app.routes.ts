@@ -14,6 +14,10 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/contact/contact.component').then(m => m.ContactComponent),
     },
     {
+        path: 'reservas',
+        loadComponent: () => import('./pages/reservations/reservations.component').then(m => m.ReservationsComponent),
+    },
+    {
         path: '**',
         redirectTo: '',
         pathMatch: 'full',

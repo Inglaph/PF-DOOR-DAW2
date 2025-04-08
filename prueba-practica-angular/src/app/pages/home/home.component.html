@@ -1,1 +1,56 @@
-<p>home works!11111</p>
+<section class="home-container">
+    <img [src]="imagePath" alt="Libros">
+    <div class="welcome-message">
+        <div>
+
+            <h2>{{welcomeTitle}}</h2>
+            <p>{{welcomeMessage}}</p>
+        </div>
+        <div>
+            <app-search-bar></app-search-bar>
+        </div>
+    </div>
+</section>
+
+
+   
+
+
+<section class="last-books">
+    <h2>Últimos libros</h2>
+    <!-- tabla con los ultimos libros -->
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Fecha de publicación</th>
+                <th>Género</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>El secreto de la felicidad</td>
+                <td>Juan Pérez</td>
+                <td>2024-01-15</td>
+                <td>Novela</td>
+                <td>Una novela que narra la vida de una persona que busca la felicidad.</td>
+            </tr>
+            <tr>
+                <td>El secreto de la felicidad</td>
+                <td>Juan Pérez</td>
+                <td>2024-01-15</td>
+                <td>Novela</td>
+                <td>Una novela que narra la vida de una persona que busca la felicidad.</td>
+            </tr>
+            <tr>
+                <td>El secreto de la felicidad</td>
+                <td>Juan Pérez</td>
+                <td>2024-01-15</td>
+                <td>Novela</td>
+                <td>Una novela que narra la vida de una persona que busca la felicidad.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

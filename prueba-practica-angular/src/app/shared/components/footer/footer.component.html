@@ -1,3 +1,44 @@
-<footer>
-    <p>footer works!</p>
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Sección de información de la empresa -->
+        <div class="footer-section">
+            <h3>Sobre Nosotros</h3>
+            <p>Tu descripción breve de la empresa aquí. Una o dos líneas que resuman tu misión.</p>
+        </div>
+
+        <!-- Sección de enlaces rápidos -->
+        <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a [routerLink]="['/home']">Inicio</a></li>
+                <li><a [routerLink]="['/about']">Nosotros</a></li>
+                <li><a [routerLink]="['/contact']">Contacto</a></li>
+                <li><a [routerLink]="['/reservas']">Reservas</a></li>
+            </ul>
+        </div>
+
+        <!-- Sección de redes sociales -->
+        <div class="footer-section social-media">
+            <h3>Síguenos</h3>
+            <div class="social-icons">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img [src]="'../../../../assets/images/social-media/icon-facebook.svg'" alt="Facebook">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img [src]="'../../../../assets/images/social-media/icon-x.svg'" alt="Twitter">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img [src]="'../../../../assets/images/social-media/icon-instagram.svg'" alt="Instagram">
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img [src]="'../../../../assets/images/social-media/icon-linkedin.svg'" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
 </footer>

@@ -1,0 +1,88 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.home-container img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.welcome-message {
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.welcome-message p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-dark);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    color: var(--color-dark);
+}
+
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: var(--color-light);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th,
+    td {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+
+}
+
+/* Estilos para filas alternas */
+tbody tr:nth-child(even) {
+    background-color: rgba(138, 162, 158, 0.05);
+}
